@@ -14,7 +14,7 @@ class Apps:
     """
     A registry that stores the configuration of installed applications.
 
-    It also keeps track of models, e.g. to provide reverse relations.
+    It also keeps track of models, e.g. for providing reverse relations to the customer.
     """
 
     def __init__(self, installed_apps=()):
